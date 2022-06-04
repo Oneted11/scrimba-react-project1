@@ -1,0 +1,40 @@
+:root{
+    margin:0px;
+    border:0px;
+    font-family:Inter,Arial, Helvetica, sans-serif ;
+    background-color: #282D35;
+}
+
+.nav{
+    display: flex;
+    background-color: #21222A;
+    color:#DEEBF8;
+    margin:0;
+}
+.nav >div> h2{
+    font-weight: 600;
+}
+.title{
+    display:flex;
+    margin-right:auto;
+    gap:2px;
+    align-items:center;
+}
+.title >img{
+    height:40px;
+    /* width:60px;         */
+    justify-content: center;
+}
+.title>h1{
+    color:#61DAFB;
+    font-weight: 700;
+}
+.main-content{
+    font-weight: 400;
+    color:#FFFFFF;
+}
+.main-content>h1{
+font-weight:700;
+color:#FFFFFF;
+
+}
