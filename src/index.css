@@ -32,23 +32,26 @@
   font-weight: 700;
 }
 .main-content {
+  height: 80vh;
   font-weight: 400;
   color: #ffffff;
   padding-left: 20px;
+  background-image: url(./images/reactr-half-background.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
 }
 .main-content > h1 {
   font-weight: 700;
   color: #ffffff;
-}
-.main-content > ul {
-  list-style: none; /* Remove default bullets */
+  letter-spacing: -0.05em;
+  font-size: 39;
 }
 
-.main-content > ul > li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+.main-content > ul > li::marker {
   color: #61dafb; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+
+  font-size: 1.4em; /* make bigger*/
+}
+.main-content > ul > li {
+  padding-block: 10px;
 }
